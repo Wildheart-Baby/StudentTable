@@ -1,0 +1,72 @@
+[
+    {   
+        "id": 1,
+        "name": "Penny Lane",
+        "class": "K12",
+        "year": "2014",
+        "sen": "Dyslexia"    
+    },
+    {
+        "id": 2,
+        "name": "Strawberry Fields",
+        "class": "K12",
+        "year": "2013",
+        "sen": "ADHD"    
+    },
+    {   
+        "id": 3,
+        "name": "Bill Giles",
+        "class": "K12",
+        "year": "2012",
+        "sen": "Autistic Disorder"    
+    },
+    {
+        "id": 4,
+        "name": "Rembrant",
+        "class": "K12",
+        "year": "2015",
+        "sen": "Dyscalculia"    
+    },
+    {   
+        "id": 5,
+        "name": "Benny King",
+        "class": "K12",
+        "year": "2014",
+        "sen": "Executive Functioning"    
+    },
+    {
+        "id": 6,
+        "name": "Sandra Dee",
+        "class": "K12",
+        "year": "2014",
+        "sen": "Dyspraxia"    
+    },
+    {   
+        "id": 7,
+        "name": "Kate How",
+        "class": "K12",
+        "year": "2014",
+        "sen": "Dysgraphia"    
+    },
+    {
+        "id": 8,
+        "name": "Whoops a Daisy",
+        "class": "K12",
+        "year": "2014",
+        "sen": "ADD"    
+    },
+    {   
+        "id": 9,
+        "name": "Steak Sandwich",
+        "class": "K12",
+        "year": "2014",
+        "sen": "Epilepsy"    
+    },
+    {
+        "id": 10,
+        "name": "Cheesy Chips",
+        "class": "K12",
+        "year": "2014",
+        "sen": "Brain Injury"    
+    }
+]
