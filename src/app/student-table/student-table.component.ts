@@ -35,9 +35,9 @@ export class StudentTableComponent implements OnInit {
       this.dialogService.open(StudentDetailComponent, {
         data: {
           student: student
-        },
-        header: 'Student details',
-        width: '50%'
+        },   
+        header: 'Student details',     
+        width: '35%'
       });
     
   }
