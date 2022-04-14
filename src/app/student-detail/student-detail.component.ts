@@ -13,15 +13,15 @@ import {DynamicDialogConfig, DynamicDialogRef} from 'primeng/dynamicdialog';
 
 export class StudentDetailComponent implements OnInit {  
   student: Student;
-  student_id: number;
+  //student_id: number;
   
   constructor(private studentService: StudentService, public ref: DynamicDialogRef, public config: DynamicDialogConfig) { 
-    this.student_id = config.data.id;
-    this.student = new Student();
+    this.student = config.data.student;
+    //this.student = new Student();
   }
 
   ngOnInit(): void {  
-     this.student = this.studentService.getStudentDetail(this.student_id);
+     //this.student = this.studentService.getStudentDetail(this.student_id);
      //const newObject = Object.assign(this.student, this.studentService.getStudentDetail(this.student_id));
      console.log('some words ' + this.student.class);             
   }

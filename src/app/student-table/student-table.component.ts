@@ -13,7 +13,7 @@ import { StudentDetailComponent } from '../student-detail/student-detail.compone
 export class StudentTableComponent implements OnInit {
 
   students: Student[] = []; 
-  student: Student | undefined; 
+  //student: Student; 
   display: boolean = false;
   
   
@@ -30,11 +30,11 @@ export class StudentTableComponent implements OnInit {
   }
 
  
-
-  studentDetail(id: number): void {
+  /**The function to open a dialog with the detail of a student */
+  studentDetail(student: Student): void {
       this.dialogService.open(StudentDetailComponent, {
         data: {
-          id: id
+          student: student
         },
         header: 'Student details',
         width: '50%'
